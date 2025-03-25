@@ -17,8 +17,8 @@
 - 본인의 이름으로 된 폴더 안에 자신의 코드를 업로드 합니다.
 - 업로드가 완료되면 `git add .` -> `git commit -m "message"` -> `git push origin main`를 통해 업로드 합니다.
 
-## GCC 설치
-
+# C 설정
+## [1] GCC 설치
 ### 1. Windows인 경우
 
 1. [MinGW](https://sourceforge.net/projects/mingw/) 사이트 접속 후 `Download` 버튼을 클릭합니다.
@@ -88,3 +88,23 @@
     ```
     xcode-select --install
     ```
+## [2] Code Runner
+
+1. `Extension` 탭에서 `Code Runner`를 설치합니다.
+
+   ![code runner](./assets/2-15.png)
+2. `Extension` 탭에서 Code Runner 우측 하단 톱니바퀴를 클릭 - `Extension Settings`을 클릭합니다.
+
+   우측 설정창에서 `Run In Terminal`을 찾아 체크합니다.
+
+   ![Run In Terminal](./assets/2-21.png)
+
+3. `Terminal Root` 를 찾아 `/`를 입력합니다.
+
+   ![Terminal Root](./assets/2-22.png)
+   
+## [3] C/C++
+
+1. `Extension` 탭에서 `C/C++`를 설치합니다.
+
+   ![C/C++](./assets/2-17.png)
