@@ -16,10 +16,7 @@ int main(void)
     int answer3 = a * (b / 100);
     printf("%d\n", answer3);
 
-
-
-    int result = answer1 + 10 * answer2 + 100 * answer3;
-    printf("%d\n", result);
+    printf("%d\n", a * b);
 
 
     return 0;
