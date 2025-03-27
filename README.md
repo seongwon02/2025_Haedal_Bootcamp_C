@@ -77,7 +77,7 @@
 
    ![vscode_install_mac_2](https://github.com/KNU-HAEDAL/bootcamp_division_homework/assets/138651699/75bb0948-40d0-45ce-a57f-9308a66cf96a)
 
-## [1] GCC 설치
+## [3] GCC 설치
 ### 1. Windows인 경우
 (주의) 폴더 경로에 한글이 있으면 안됩니다. 만약 user가 한글로 되어있다면 이름 영어로 변경하셔야 합니다.
 
@@ -148,7 +148,7 @@
     ```
     xcode-select --install
     ```
-## [2] Code Runner
+## [4] Code Runner
 
 1. `Extension` 탭에서 `Code Runner`를 설치합니다.
 
@@ -163,7 +163,7 @@
 
    ![Terminal Root](./assets/2-22.png)
    
-## [3] C/C++
+## [5] C/C++
 
 1. `Extension` 탭에서 `C/C++`를 설치합니다.
 
