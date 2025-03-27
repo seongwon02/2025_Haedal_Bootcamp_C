@@ -20,6 +20,7 @@
 # C 설정
 ## [1] GCC 설치
 ### 1. Windows인 경우
+(주의) 폴더 경로에 한글이 있으면 안됩니다. 만약 user가 한글로 되어있다면 이름 영어로 변경하셔야 합니다.
 
 1. [MinGW](https://sourceforge.net/projects/mingw/) 사이트 접속 후 `Download` 버튼을 클릭합니다.
 
