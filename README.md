@@ -159,7 +159,7 @@
 
    ![Run In Terminal](./assets/2-21.png)
 
-3. `Terminal Root` 를 찾아 `/`를 입력합니다.
+3. `Terminal Root` 를 찾아 `/`를 입력합니다. (에러나면 3번 안해도됨)
 
    ![Terminal Root](./assets/2-22.png)
    
