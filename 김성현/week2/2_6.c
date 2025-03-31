@@ -5,34 +5,19 @@ int main(void)
     int a = 0; int b = 1; int c; int n;
     scanf("%d", &n);
 
- 
-    for (int i = 1; i <= n; i++)
+    if (n == 0)
+        puts("0");
+    else if (n == 1)
+        puts("1");
+    else
     {
-        switch(i % 3)
+        for (int i = 2; i <= n; i++)
         {
-            case 1 :
-                c = a + b;
-                break;
-            case 2 :
-                a = b + c;
-                break;
-            case 0 :
-                b = c + a;
-                break;
+            c = a + b;
+            a = b;
+            b = c;
         }
-    }
-
-    switch(n % 3)
-    {
-        case 0 :
-            printf("%d", a);
-            break;
-        case 1 :
-            printf("%d", b);
-            break;
-        case 2 :
-            printf("%d", c);
-            break;
+        printf("%d", c);
     }
         
     
