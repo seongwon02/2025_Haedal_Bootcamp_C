@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    int T, length;
+    int T;
     int R[1000];
     char S[1000][21];
     scanf("%d", &T);
@@ -14,9 +14,7 @@ int main(void)
 
     for (int i = 0; i < T; i++)
     {
-        length = strlen(S[i]);
-        
-        for (int j = 0; j < length; j++)
+        for (int j = 0; j < strlen(S[i]); j++)
             for (int k = 0; k < R[i]; k++)
                 printf("%c", S[i][j]);
 
