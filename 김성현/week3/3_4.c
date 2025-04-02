@@ -7,7 +7,6 @@ int main(void)
     int R[1000];
     char S[1000][21];
     scanf("%d", &T);
-    getchar();
 
     for (int i = 0; i < T; i++)
         scanf("%d %s", &R[i], S[i]);
