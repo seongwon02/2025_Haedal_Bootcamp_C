@@ -10,5 +10,4 @@ int main(void){
     e=a*b;
     f=a/b;
     g=a%b;
-    printf("%d\n %d\n %d\n %d\n %d\n", c,d,e,f,g);
-}
+    printf("%d\n %d\n %d\n %d\n %d\n", c,d,e,f,g)
